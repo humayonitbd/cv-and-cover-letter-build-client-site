@@ -1,0 +1,42 @@
+.mainSec {
+    position: relative;
+    transition: all .5s ease-in;
+  }
+  
+  
+  .text_content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: none;
+    transition: .5s ease;
+    background-color: #39383996;
+    /* background-color: #f566008a; */
+  }
+  
+  /* .mainSec .text_content {
+    opacity: 1;
+  } */
+  .mainSec:hover .text_content {
+    opacity: 1;
+  }
+  
+  .cartText {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  

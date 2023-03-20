@@ -1,0 +1,7 @@
+.bgImage{
+    background: url(/src//asset/cover-letter-page/sprawdz-kreator-listu-motywacyjnego-md@3x.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}

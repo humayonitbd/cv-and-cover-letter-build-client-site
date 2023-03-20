@@ -1,0 +1,25 @@
+.homeBackground{
+    background: url(/src/asset/HomePageImg/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+   
+}
+
+.homeBackground::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(237, 237, 237, 0.55);
+    width: 100%;
+    height: 700px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}

@@ -1,0 +1,19 @@
+.aboutBackgrund{
+    background: url(/src/asset/About/about-emage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    z-index: -1;
+}
+.aboutBackgrund::after{
+    position: absolute;
+    content: "";
+    background-color: rgba(28, 28, 28, 0.276);
+    top: 0;
+    left: 0;
+    height: 383px;
+    width: 100%;
+    z-index: -1;
+}

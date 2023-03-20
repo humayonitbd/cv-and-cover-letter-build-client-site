@@ -1,0 +1,25 @@
+.homeSec4bg{
+    background: url(/src/asset/HomePageImg/homesec4.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+   
+}
+
+.homeSec4bg::after{
+    position: absolute;
+    content: "";
+    background: #f5660097;
+    width: 100%;
+    height: 400px;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
